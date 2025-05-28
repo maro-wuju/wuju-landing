@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WUJU - Bebida Social Sin Alcohol</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #81c784;
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+    .benefits li::before {
+      content: '✔️';
+      margin-right: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, select, button {
+      padding: 10px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #81c784;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #66bb6a;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WUJU: Relájate, conéctate y disfruta sin alcohol</h1>
+    <p>La bebida funcional que te hace sentir tipzi, sin resaca ni culpa.</p>
+  </header>
+
+  <section>
+    <h2>¿Qué es Wuju?</h2>
+    <p>WUJU es una bebida carbonatada sin alcohol ni THC que combina adaptógenos y nootrópicos naturales para generar una sensación real de relajación, claridad mental y bienestar social.</p>
+  </section>
+
+  <section class="benefits">
+    <h2>Beneficios</h2>
+    <ul>
+      <li>Relajación sin resaca</li>
+      <li>Ideal para socializar, relajarte o acompañar comidas</li>
+      <li>Bajo en calorías, sin azúcar añadida</li>
+      <li>Ingredientes naturales y funcionales</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>¿Quieres probarla primero?</h2>
+    <p>Únete a la lista de espera y recibe una muestra exclusiva cuando lancemos nuestro primer lote.</p>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo electrónico" required>
+      <select>
+        <option>¿Dónde la consumirías más?</option>
+        <option>After office</option>
+        <option>En casa</option>
+        <option>Con tu pareja</option>
+        <option>Durante comidas</option>
+      </select>
+      <button type="submit">Quiero probar Wuju</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 WUJU. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
