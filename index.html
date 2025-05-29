@@ -6,35 +6,31 @@
   <title>WUJU - El nuevo flow sin alcohol</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f7faf5;
+      background-color: #f5f9f9;
       color: #333;
     }
     header {
-      text-align: center;
-      background-color: #a3d3f7;
+      background-color: #b3e0ff;
       padding: 0;
+      text-align: center;
     }
     header img {
       width: 100%;
-      max-width: 1400px;
+      max-width: 1200px;
+      height: auto;
       display: block;
-      margin: auto;
+      margin: 0 auto;
     }
     section {
       padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
+      max-width: 800px;
+      margin: 20px auto;
       background-color: white;
-      margin-top: 30px;
-      border-radius: 15px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-      transition: transform 0.3s ease;
-    }
-    section:hover {
-      transform: scale(1.01);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     }
     h2 {
       color: #3C9A5D;
@@ -45,18 +41,17 @@
     }
     li {
       margin: 10px 0;
-      font-size: 1.1em;
     }
     form {
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 10px;
       margin-top: 20px;
     }
     input, select, button {
       padding: 12px;
       font-size: 1em;
-      border-radius: 6px;
+      border-radius: 5px;
       border: 1px solid #ccc;
     }
     button {
@@ -64,30 +59,21 @@
       color: white;
       border: none;
       cursor: pointer;
-      transition: background-color 0.3s ease;
+      transition: background 0.3s;
     }
     button:hover {
-      background-color: #e29d32;
+      background-color: #d99636;
     }
-    .render-img {
-      width: 100%;
-      max-width: 500px;
-      display: block;
-      margin: 30px auto 10px auto;
-    }
-    .thank-you {
-      display: none;
+    .image-center {
       text-align: center;
-      font-size: 1.3em;
-      color: #3C9A5D;
-      margin-top: 20px;
-      background: #e6f4ea;
-      padding: 20px;
-      border-radius: 10px;
+    }
+    .image-center img {
+      max-width: 300px;
+      width: 100%;
     }
     footer {
       text-align: center;
-      padding: 30px;
+      padding: 20px;
       font-size: 0.9em;
       color: #777;
     }
@@ -95,7 +81,7 @@
 </head>
 <body>
   <header>
-    <img src="https://res.cloudinary.com/dugipodru/image/upload/v1748482906/Wuju3latas_bsspwk.png" alt="WUJU tres latas">
+    <img src="https://res.cloudinary.com/dugipodru/image/upload/v1748482906/Wuju3latas_bsspwk.png" alt="WUJU 3 latas">
   </header>
 
   <section>
@@ -104,7 +90,7 @@
     <p>No tiene THC, CBD ni azúcar añadida —solo ingredientes naturales como Ashwagandha, L-Teanina y Melisa, que ayudan a soltar el estrés, fluir en los planes y recargar la energía sin perder el control.</p>
     <ul>
       <li>🍻 After office con amigos</li>
-      <li>🛋️ Chill en casa con tu pareja</li>
+      <li>🏡 Chill en casa con tu pareja</li>
       <li>🍽️ Cenar rico y sin remordimientos</li>
       <li>🎶 Bailar sin perder la cabeza</li>
     </ul>
@@ -114,17 +100,17 @@
   <section>
     <h2>Beneficios que sí se sienten</h2>
     <ul>
-      <li>💫 <strong>Modo “float” activado</strong><br>Relájate sin quedarte dormido. WUJU te pone en un estado mental ligero, alegre y enfocado.</li>
-      <li>👥 <strong>Conexión sin filtro</strong><br>Dile adiós a la incomodidad social. Disfruta más de cada plan, con más claridad y menos ansiedad.</li>
+      <li>🥊 <strong>Modo “float” activado</strong><br>Relájate sin quedarte dormido. WUJU te pone en un estado mental ligero, alegre y enfocado.</li>
+      <li>🧑‍🤝🧑 <strong>Conexión sin filtro</strong><br>Dile adiós a la incomodidad social. Disfruta más de cada plan, con más claridad y menos ansiedad.</li>
       <li>🔥 <strong>Te prende… sin trago</strong><br>Disfruta esa sensación de estar “parchado” sin necesidad de alcohol, y con el cuerpo sintiéndose bien.</li>
-      <li>🚫 <strong>Cero alcohol, cero guayabo</strong><br>Sin dolor de cabeza, sin vacíos. Solo buena vibra y energía limpia.</li>
+      <li>❌ <strong>Cero alcohol, cero guayabo</strong><br>Sin dolor de cabeza, sin vacíos. Solo buena vibra y energía limpia.</li>
       <li>💪 <strong>Estilo de vida activo y consciente</strong><br>Bajo en calorías, sin azúcar añadida y con beneficios reales para el cuerpo y la mente.</li>
     </ul>
   </section>
 
-  <section>
+  <section class="image-center">
     <h2>Así se ve tu nuevo ritual social</h2>
-    <img class="render-img" src="https://res.cloudinary.com/dugipodru/image/upload/v1748482981/Wuju3D_sk0rtw.png" alt="Render individual lata WUJU">
+    <img src="https://res.cloudinary.com/dugipodru/image/upload/v1748482981/Wuju3D_sk0rtw.png" alt="WUJU 3D">
     <p>¿Te gustaría verla? Pídela antes que nadie.</p>
   </section>
 
@@ -132,33 +118,22 @@
     <h2>¿Te animas a probar algo diferente?</h2>
     <p>Estamos preparando nuestro primer lote, y tú puedes ser de los primeros en vivir la experiencia WUJU.</p>
     <p>Si estás buscando una alternativa que te prenda sin trago, sin guayabo y con beneficios reales, esto es para ti.</p>
-    <form action="https://script.google.com/macros/s/AKfycbx8nU_U8WWNxJLQQADnnLDO32o6YlXOgM3cd2TRFb8l854z-VTC12mCIeF-KF4jdBDSpg/exec" method="POST" onsubmit="showThankYou(); return true;">
+    <form action="https://script.google.com/macros/s/AKfycbzuoELQqJxkf6NV1tRUeMG7S53tu3iOfeumuvRXoVGqgX7Ml03mP8WOsDpebGTxEVszIg/exec" method="POST">
       <input type="text" name="name" placeholder="Tu nombre" required>
       <input type="email" name="email" placeholder="Tu correo electrónico" required>
       <select name="uso">
         <option value="">¿Dónde la consumirías más?</option>
-        <option value="After office">After office</option>
-        <option value="En casa">En casa</option>
-        <option value="Con tu pareja">Con tu pareja</option>
-        <option value="Durante comidas">Durante comidas</option>
+        <option>After office</option>
+        <option>En casa</option>
+        <option>Con tu pareja</option>
+        <option>Durante comidas</option>
       </select>
       <button type="submit">📩 🔔 Quiero probar WUJU</button>
     </form>
-    <div class="thank-you" id="thankYou">
-      🎉 ¡WUJU! Gracias por unirte al nuevo flow. Pronto recibirás noticias refrescantes. ✨
-    </div>
   </section>
 
   <footer>
-    &copy; 2025 WUJU. Todos los derechos reservados.
+    &copy; 2025 WUJU. Todos los derechos reservados. | 🌟 Relájate, conéctate, disfruta sin trago.
   </footer>
-
-  <script>
-    function showThankYou() {
-      setTimeout(() => {
-        document.getElementById("thankYou").style.display = "block";
-      }, 500);
-    }
-  </script>
 </body>
 </html>
